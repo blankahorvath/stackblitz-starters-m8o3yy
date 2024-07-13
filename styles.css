@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  pointer-events: none;
+}
+
+.hello {
+  text-align: center;
+  margin-top: 13rem;
+  font-size: 8rem;
+  background: -webkit-linear-gradient(rgb(245, 255, 100), rgb(230, 157, 47));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 13rem;
+}
